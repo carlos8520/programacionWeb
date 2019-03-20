@@ -1,4 +1,4 @@
-/* var person = {
+ var person = {
     firstname:'',
     lastname:'',
     greet:function(){
@@ -44,11 +44,11 @@ greeter1.on('greet',function(data){
     console.log('someone greeted ' + data);
 })
 
-greeter1.greet('oscarito'); */
+greeter1.greet('oscarito'); 
 
 //------------------------------------------
 
-var obj = {
+/*var obj = {
     name: 'cesar megalodón',
     greet: function(param) {
         console.log(`Hello ${this.name}`);
@@ -57,4 +57,4 @@ var obj = {
 
 obj.greet();
 obj.greet.call({name:'jhon doe'});
-obj.greet.apply({name: 'jane doe'});
+obj.greet.apply({name: 'jane doe'});*/
